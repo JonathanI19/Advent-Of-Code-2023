@@ -37,7 +37,7 @@ int main() {
     }
 
     for (int i = 0; i < ROWS; i++) {
-        p1_result += find_nums(arr[i][1], arr[i][2]);
+        p1_result += pow(2, (find_nums(arr[i][1], arr[i][2]))-1);
     }
 
     cout << p1_result << endl;
