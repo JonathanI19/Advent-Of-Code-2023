@@ -11,7 +11,7 @@ int find_nums(vector<string> winning, vector<string> tix) {
 
     if(count > 0) {
         // return pow(2, count-1);
-        return count;
+        return count-1;
     }
     else {
         return 0;

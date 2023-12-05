@@ -1,7 +1,7 @@
 #ifndef UTIL_H
 #define UTIL_H
 
-// #define ROWS 6
+// #define ROWS 18712
 #define ROWS 193
 
 #include <string>
