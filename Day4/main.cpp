@@ -5,8 +5,7 @@ int main() {
     // Open up file stream
     std::ifstream f_id;
     f_id.open("input.txt", std::ios_base::in);
-    //vector<string> arr[ROWS][3]; 
-    vector<vector<vector<string>>> arr(193, vector<vector<string>>(3,vector<string>(1)));
+    vector<string> arr[ROWS][3]; 
     string line;
     int col = 0;
     int row = 0;
@@ -40,10 +39,6 @@ int main() {
     for (int i = 0; i < ROWS; i++) {
         p1_result += pow(2, (find_nums(arr[i][1], arr[i][2]))-1);
     }
-
-
-
-
 
     cout << p1_result << endl;
     
